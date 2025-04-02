@@ -7,3 +7,10 @@ const posts = [
 
 // Crea un nuovo array coi nomi di tutti gli autori
 // Risultato: ['Marco', 'Luca', 'Fabrizio', 'Enrico']
+//andiamo ad usare il metodo map come nell'esercizio 2
+const names = posts.map((element) =>{
+  return element.author
+})
+
+
+
