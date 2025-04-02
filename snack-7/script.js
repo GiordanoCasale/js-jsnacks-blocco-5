@@ -26,3 +26,4 @@ const myStudent = students.find((student) => {
   return student.id === 2
 })
 
+console.log(myStudent)
