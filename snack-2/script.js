@@ -6,3 +6,9 @@ const people = [
 
 // Stampa in console tutti i nomi
 // Risultato: 'Paolo', 'Giulia', 'Marco'
+//andiamo ad usare il metodo map per creare un nuovo array con solo gli elementi che ci servono
+const names = people.map((element) =>{
+  return element.name
+})
+
+console.log(names)
