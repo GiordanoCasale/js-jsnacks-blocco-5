@@ -23,3 +23,11 @@ const moreLenght = zucchine.filter((element) =>{
  console.log(moreLenght)
 
  
+ const otherLenght = zucchine.filter((element) =>{
+  if(element.length > 15){
+    return false
+  }
+  return true
+})
+
+ console.log(otherLenght)
