@@ -26,3 +26,4 @@ const myStudent = students.find(myStudent => myStudent.name === "Marco Lanci")
 
 
 console.log(myStudent.class)
+
