@@ -21,3 +21,8 @@ const students = [
 
 // Recupera i dati dello studente con id 2
 // Risultato: { id: 2, name: 'Mario Banfi', age: 34, class: '4A' }
+// usiamo il metodo find per trovare l'elemento con una caratteristica specifica
+const myStudent = students.find((student) => {
+  return student.id === 2
+})
+
