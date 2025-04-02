@@ -21,3 +21,7 @@ const students = [
 
 // Recupera la classe dello studente 'Marco Lanci'
 // Risultato: '3C'
+//come nell'esercizio precedente andiamo ad usare il metodo find per prendere l'oggetto dell'array con una caratteristica nello specifico
+const myStudent = students.find((student) => {
+  return student.class === "3C"
+})
