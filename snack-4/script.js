@@ -12,5 +12,5 @@ const names = posts.map((element) =>{
   return element.author
 })
 
-
+console.log(names)
 
